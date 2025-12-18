@@ -1,0 +1,14 @@
+
+[axes]
+queue_depth = 256  # change to 512 if you want ~3 seconds of coverage at 6ms/segment
+segment_ms = 6.0
+
+[axis.X]
+steps_per_mm = 160.0
+max_feed_mm_min = 3000.0
+max_acc_mm_s2   = 300.0
+
+[axis.Y]
+steps_per_mm = 160.0
+max_feed_mm_min = 3000.0
+max_acc_mm_s2   = 300.0
